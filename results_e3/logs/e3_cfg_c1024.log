@@ -1,0 +1,14 @@
+=== 2026-10-28 11:24:26 attempt 1: python -u eval_cfg.py --run runs/c1024
+w_0: copy 0.857 median_nn 0.955 copy95 0.538 fid 30.482666015625 (1156.8s, sampling peak 5.72 GB)
+w_1: copy 0.920 median_nn 0.966 copy95 0.615 fid 28.466754913330078 (1100.0s, sampling peak 5.95 GB)
+w_2: copy 0.938 median_nn 0.973 copy95 0.639 fid 34.15259552001953 (4535.9s, sampling peak 11.75 GB)
+w_3: copy 0.936 median_nn 0.974 copy95 0.669 fid 35.7489128112793 (4706.6s, sampling peak 11.52 GB)
+=== 2026-10-28 14:37:30 attempt 1: python -u eval_cfg.py --run runs/c1024 --bs 125
+w_0: already evaluated, skipping
+w_1: already evaluated, skipping
+w_2: already evaluated, skipping
+w_3: already evaluated, skipping
+w_5: copy 0.909 median_nn 0.968 copy95 0.642 fid 30.219112396240234 (2188.0s, sampling peak 5.72 GB)
+w_7.5: copy 0.609 median_nn 0.914 copy95 0.351 fid 61.96272277832031 (2268.6s, sampling peak 5.95 GB)
+mia true_label: auc 1.000 [1.000, 1.000] tpr1 1.000
+mia null_label: auc 1.000 [1.000, 1.000] tpr1 1.000

@@ -1,0 +1,134 @@
+{
+ "attacks": {
+  "loss": {
+   "true": {
+    "settings": {
+     "step": 30000,
+     "n_boot": 1000,
+     "n_per_group": 1000,
+     "label": "true",
+     "ts": [
+      25,
+      50,
+      100,
+      150,
+      200,
+      300
+     ],
+     "draws": 4,
+     "noise_seed": 0
+    },
+    "seconds": 168.1,
+    "auc": 0.846112,
+    "tpr1": 0.165,
+    "auc_lo": 0.8296185249999999,
+    "auc_hi": 0.862560275,
+    "tpr1_lo": 0.102,
+    "tpr1_hi": 0.223
+   },
+   "null": {
+    "settings": {
+     "step": 30000,
+     "n_boot": 1000,
+     "n_per_group": 1000,
+     "label": "null",
+     "ts": [
+      25,
+      50,
+      100,
+      150,
+      200,
+      300
+     ],
+     "draws": 4,
+     "noise_seed": 0
+    },
+    "seconds": 168.9,
+    "auc": 0.8344170000000001,
+    "tpr1": 0.153,
+    "auc_lo": 0.8166895999999999,
+    "auc_hi": 0.85133945,
+    "tpr1_lo": 0.095,
+    "tpr1_hi": 0.213
+   }
+  },
+  "pia": {
+   "true": {
+    "settings": {
+     "step": 30000,
+     "n_boot": 1000,
+     "n_per_group": 1000,
+     "label": "true",
+     "t": 200,
+     "p": 4
+    },
+    "seconds": 14.0,
+    "auc": 0.888833,
+    "tpr1": 0.204,
+    "auc_lo": 0.8754775499999999,
+    "auc_hi": 0.9025359249999999,
+    "tpr1_lo": 0.134,
+    "tpr1_hi": 0.321025
+   },
+   "null": {
+    "settings": {
+     "step": 30000,
+     "n_boot": 1000,
+     "n_per_group": 1000,
+     "label": "null",
+     "t": 200,
+     "p": 4
+    },
+    "seconds": 14.0,
+    "auc": 0.874259,
+    "tpr1": 0.211,
+    "auc_lo": 0.8595539,
+    "auc_hi": 0.8885898999999999,
+    "tpr1_lo": 0.112,
+    "tpr1_hi": 0.30404999999999993
+   }
+  },
+  "secmi": {
+   "true": {
+    "settings": {
+     "step": 30000,
+     "n_boot": 1000,
+     "n_per_group": 1000,
+     "label": "true",
+     "t_sec": 100,
+     "k": 10
+    },
+    "seconds": 79.1,
+    "auc": 0.715633,
+    "tpr1": 0.029,
+    "auc_lo": 0.694333575,
+    "auc_hi": 0.737628575,
+    "tpr1_lo": 0.017,
+    "tpr1_hi": 0.052
+   },
+   "null": {
+    "settings": {
+     "step": 30000,
+     "n_boot": 1000,
+     "n_per_group": 1000,
+     "label": "null",
+     "t_sec": 100,
+     "k": 10
+    },
+    "seconds": 77.1,
+    "auc": 0.7082260000000001,
+    "tpr1": 0.033,
+    "auc_lo": 0.6859080249999999,
+    "auc_hi": 0.729994525,
+    "tpr1_lo": 0.019,
+    "tpr1_hi": 0.049
+   }
+  }
+ },
+ "run": "runs/c4096",
+ "step": 30000,
+ "n": 4096,
+ "n_per_group": 1000,
+ "cond": true,
+ "tiny": false
+}

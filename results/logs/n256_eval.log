@@ -1,0 +1,17 @@
+[2026-10-26T20:44:28] attempt 1: evaluate.py --run runs/n256 --ckpt all --n-samples 1000
+step 3750: copy 0.456 median_nn 0.875 auc 0.999 tpr1 1.000 fid 60.55764389038086 (343.5s)
+  peak GB: sampling 3.10, mia 2.13, fid 1.77; seconds: sampling 246, mia_incl_copy_boot 89
+step 7500: copy 0.962 median_nn 0.977 auc 1.000 tpr1 1.000 fid 30.351726531982422 (344.1s)
+  peak GB: sampling 3.33, mia 2.36, fid 2.00; seconds: sampling 245, mia_incl_copy_boot 93
+step 11250: copy 0.995 median_nn 0.993 auc 1.000 tpr1 1.000 fid 29.59588050842285 (348.3s)
+  peak GB: sampling 3.56, mia 2.59, fid 1.77; seconds: sampling 245, mia_incl_copy_boot 96
+step 15000: copy 0.999 median_nn 0.996 auc 1.000 tpr1 1.000 fid 30.553421020507812 (345.7s)
+  peak GB: sampling 3.33, mia 2.36, fid 2.00; seconds: sampling 245, mia_incl_copy_boot 95
+step 18750: copy 0.997 median_nn 0.997 auc 1.000 tpr1 1.000 fid 31.298038482666016 (341.8s)
+  peak GB: sampling 3.56, mia 2.59, fid 2.23; seconds: sampling 245, mia_incl_copy_boot 91
+step 22500: copy 1.000 median_nn 0.998 auc 1.000 tpr1 1.000 fid 31.311161041259766 (341.2s)
+  peak GB: sampling 3.79, mia 2.82, fid 2.00; seconds: sampling 244, mia_incl_copy_boot 91
+step 26250: copy 1.000 median_nn 0.998 auc 1.000 tpr1 1.000 fid 31.879444122314453 (345.8s)
+  peak GB: sampling 3.56, mia 2.59, fid 2.23; seconds: sampling 245, mia_incl_copy_boot 95
+step 30000: copy 1.000 median_nn 0.998 auc 1.000 tpr1 1.000 fid 32.05323791503906 (1329.8s)
+  peak GB: sampling 4.78, mia 2.82, fid 2.46; seconds: sampling 1227, mia_incl_copy_boot 96

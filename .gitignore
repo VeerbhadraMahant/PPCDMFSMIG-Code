@@ -1,0 +1,10 @@
+data/
+runs/
+*.pt
+__pycache__/
+.venv/
+.cache/
+*.zip
+*.log
+!results/logs/*.log
+!results_e3/logs/*.log

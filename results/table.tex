@@ -1,0 +1,11 @@
+% Final checkpoint per N. Requires booktabs.
+% TPR@1%FPR is coarse at N=256 (about 2.6 non-members at 1% FPR).
+\begin{tabular}{rrcccccr}
+\toprule
+$N$ & Step & Copy rate [95\% CI] & Median NN sim & Copy rate at 0.95 [95\% CI] & MIA AUC [95\% CI] & TPR@1\%FPR [95\% CI] & FID \\
+\midrule
+256 & 30000 & 1.000 [1.000, 1.000] & 0.998 & 0.995 [0.990, 0.999] & 1.000 [1.000, 1.000] & 1.000 [1.000, 1.000] & 32.1 \\
+1024 & 30000 & 0.910 [0.892, 0.928] & 0.969 & 0.642 [0.613, 0.673] & 1.000 [1.000, 1.000] & 1.000 [1.000, 1.000] & 28.0 \\
+4096 & 30000 & 0.042 [0.030, 0.054] & 0.864 & 0.000 [0.000, 0.000] & 0.859 [0.842, 0.874] & 0.173 [0.118, 0.239] & 25.1 \\
+\bottomrule
+\end{tabular}

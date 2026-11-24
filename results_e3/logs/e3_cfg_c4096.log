@@ -1,0 +1,9 @@
+=== 2026-10-29 03:57:08 attempt 1: python -u eval_cfg.py --run runs/c4096 --bs 125
+w_0: copy 0.035 median_nn 0.861 copy95 0.000 fid 24.99090576171875 (364.5s, sampling peak 2.99 GB)
+w_1: copy 0.061 median_nn 0.867 copy95 0.001 fid 29.289762496948242 (359.3s, sampling peak 3.22 GB)
+w_2: copy 0.077 median_nn 0.873 copy95 0.003 fid 37.085792541503906 (2275.1s, sampling peak 6.01 GB)
+w_3: copy 0.082 median_nn 0.875 copy95 0.002 fid 39.93928909301758 (2481.9s, sampling peak 6.24 GB)
+w_5: copy 0.027 median_nn 0.852 copy95 0.000 fid 32.718963623046875 (2554.2s, sampling peak 6.47 GB)
+w_7.5: copy 0.011 median_nn 0.801 copy95 0.000 fid 40.4931526184082 (2531.7s, sampling peak 6.24 GB)
+mia true_label: auc 0.846 [0.830, 0.863] tpr1 0.165
+mia null_label: auc 0.834 [0.817, 0.851] tpr1 0.153

@@ -1,0 +1,7 @@
+=== 2026-10-28 15:57:43 attempt 1: python -u eval_attacks.py --run runs/c1024
+loss/true: auc 1.000 [1.000, 1.000] tpr1 1.000 (169.4s)
+loss/null: auc 1.000 [1.000, 1.000] tpr1 1.000 (169.6s)
+pia/true: auc 1.000 [1.000, 1.000] tpr1 1.000 (14.1s)
+pia/null: auc 1.000 [1.000, 1.000] tpr1 1.000 (14.1s)
+secmi/true: auc 0.997 [0.996, 0.998] tpr1 0.931 (77.4s)
+secmi/null: auc 1.000 [1.000, 1.000] tpr1 0.992 (77.5s)

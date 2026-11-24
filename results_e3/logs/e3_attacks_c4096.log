@@ -1,0 +1,7 @@
+=== 2026-10-29 07:03:13 attempt 1: python -u eval_attacks.py --run runs/c4096
+loss/true: auc 0.846 [0.830, 0.863] tpr1 0.165 (168.1s)
+loss/null: auc 0.834 [0.817, 0.851] tpr1 0.153 (168.9s)
+pia/true: auc 0.889 [0.875, 0.903] tpr1 0.204 (14.0s)
+pia/null: auc 0.874 [0.860, 0.889] tpr1 0.211 (14.0s)
+secmi/true: auc 0.716 [0.694, 0.738] tpr1 0.029 (79.1s)
+secmi/null: auc 0.708 [0.686, 0.730] tpr1 0.033 (77.1s)

@@ -1,0 +1,134 @@
+{
+ "attacks": {
+  "loss": {
+   "true": {
+    "settings": {
+     "step": 30000,
+     "n_boot": 1000,
+     "n_per_group": 1000,
+     "label": "true",
+     "ts": [
+      25,
+      50,
+      100,
+      150,
+      200,
+      300
+     ],
+     "draws": 4,
+     "noise_seed": 0
+    },
+    "seconds": 169.4,
+    "auc": 1.0,
+    "tpr1": 1.0,
+    "auc_lo": 1.0,
+    "auc_hi": 1.0,
+    "tpr1_lo": 1.0,
+    "tpr1_hi": 1.0
+   },
+   "null": {
+    "settings": {
+     "step": 30000,
+     "n_boot": 1000,
+     "n_per_group": 1000,
+     "label": "null",
+     "ts": [
+      25,
+      50,
+      100,
+      150,
+      200,
+      300
+     ],
+     "draws": 4,
+     "noise_seed": 0
+    },
+    "seconds": 169.6,
+    "auc": 1.0,
+    "tpr1": 1.0,
+    "auc_lo": 1.0,
+    "auc_hi": 1.0,
+    "tpr1_lo": 1.0,
+    "tpr1_hi": 1.0
+   }
+  },
+  "pia": {
+   "true": {
+    "settings": {
+     "step": 30000,
+     "n_boot": 1000,
+     "n_per_group": 1000,
+     "label": "true",
+     "t": 200,
+     "p": 4
+    },
+    "seconds": 14.1,
+    "auc": 0.999996,
+    "tpr1": 1.0,
+    "auc_lo": 0.999982,
+    "auc_hi": 1.0,
+    "tpr1_lo": 1.0,
+    "tpr1_hi": 1.0
+   },
+   "null": {
+    "settings": {
+     "step": 30000,
+     "n_boot": 1000,
+     "n_per_group": 1000,
+     "label": "null",
+     "t": 200,
+     "p": 4
+    },
+    "seconds": 14.1,
+    "auc": 0.999994,
+    "tpr1": 1.0,
+    "auc_lo": 0.999976,
+    "auc_hi": 1.0,
+    "tpr1_lo": 1.0,
+    "tpr1_hi": 1.0
+   }
+  },
+  "secmi": {
+   "true": {
+    "settings": {
+     "step": 30000,
+     "n_boot": 1000,
+     "n_per_group": 1000,
+     "label": "true",
+     "t_sec": 100,
+     "k": 10
+    },
+    "seconds": 77.4,
+    "auc": 0.997309,
+    "tpr1": 0.931,
+    "auc_lo": 0.9959987,
+    "auc_hi": 0.99838525,
+    "tpr1_lo": 0.885,
+    "tpr1_hi": 0.9570249999999999
+   },
+   "null": {
+    "settings": {
+     "step": 30000,
+     "n_boot": 1000,
+     "n_per_group": 1000,
+     "label": "null",
+     "t_sec": 100,
+     "k": 10
+    },
+    "seconds": 77.5,
+    "auc": 0.999761,
+    "tpr1": 0.992,
+    "auc_lo": 0.9995569499999999,
+    "auc_hi": 0.999916025,
+    "tpr1_lo": 0.982,
+    "tpr1_hi": 0.999
+   }
+  }
+ },
+ "run": "runs/c1024",
+ "step": 30000,
+ "n": 1024,
+ "n_per_group": 1000,
+ "cond": true,
+ "tiny": false
+}
