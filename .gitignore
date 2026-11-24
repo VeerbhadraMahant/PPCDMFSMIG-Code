@@ -1,5 +1,5 @@
-data/
-runs/
+/data/
+/runs/
 *.pt
 __pycache__/
 .venv/
@@ -8,3 +8,5 @@ __pycache__/
 *.log
 !results/logs/*.log
 !results_e3/logs/*.log
+!results_e3/college_status.log
+!results/runs/**/*.log

@@ -1,0 +1,28 @@
+2026-10-27 19:51:29 BLOCKS e3
+2026-10-27 19:51:29 QUEUE jobs=6 parallel=1 already_done=0
+2026-10-27 19:51:29 START e3_train_c1024 attempt=1
+2026-10-27 21:23:51 BLOCKS e3
+2026-10-27 21:23:51 QUEUE jobs=6 parallel=1 already_done=0
+2026-10-27 21:23:51 START e3_train_c1024 attempt=1
+2026-10-27 22:38:12 BLOCKS e3
+2026-10-27 22:38:12 QUEUE jobs=6 parallel=1 already_done=0
+2026-10-27 22:38:12 START e3_train_c1024 attempt=1
+2026-10-28 10:02:23 INTERRUPTED running=['e3_train_c1024']; rerun the same command to resume
+2026-10-28 10:07:20 BLOCKS e3
+2026-10-28 10:07:20 QUEUE jobs=6 parallel=1 already_done=0
+2026-10-28 10:07:20 START e3_train_c1024 attempt=1
+2026-10-28 11:24:26 DONE e3_train_c1024 seconds=4625
+2026-10-28 11:24:26 START e3_cfg_c1024 attempt=1
+2026-10-28 14:37:30 BLOCKS e3
+2026-10-28 14:37:30 QUEUE jobs=6 parallel=1 already_done=1
+2026-10-28 14:37:30 START e3_cfg_c1024 attempt=1
+2026-10-28 15:57:43 DONE e3_cfg_c1024 seconds=4812
+2026-10-28 15:57:43 START e3_attacks_c1024 attempt=1
+2026-10-28 16:06:39 DONE e3_attacks_c1024 seconds=535
+2026-10-28 16:06:39 START e3_train_c4096 attempt=1
+2026-10-29 03:57:08 DONE e3_train_c4096 seconds=42629
+2026-10-29 03:57:08 START e3_cfg_c4096 attempt=1
+2026-10-29 07:03:13 DONE e3_cfg_c4096 seconds=11164
+2026-10-29 07:03:13 START e3_attacks_c4096 attempt=1
+2026-10-29 07:12:16 DONE e3_attacks_c4096 seconds=543
+2026-10-29 07:12:16 FINISHED done=6 failed=0 blocked=0 skipped=0

@@ -1,0 +1,75 @@
+{
+ "attacks": {
+  "loss": {
+   "none": {
+    "settings": {
+     "step": 30000,
+     "n_boot": 1000,
+     "n_per_group": 1000,
+     "label": "none",
+     "ts": [
+      25,
+      50,
+      100,
+      150,
+      200,
+      300
+     ],
+     "draws": 4,
+     "noise_seed": 0
+    },
+    "seconds": 259.9,
+    "auc": 0.8585780000000001,
+    "tpr1": 0.173,
+    "auc_lo": 0.8429388750000001,
+    "auc_hi": 0.8742523750000001,
+    "tpr1_lo": 0.118,
+    "tpr1_hi": 0.241
+   }
+  },
+  "pia": {
+   "none": {
+    "settings": {
+     "step": 30000,
+     "n_boot": 1000,
+     "n_per_group": 1000,
+     "label": "none",
+     "t": 200,
+     "p": 4
+    },
+    "seconds": 17.1,
+    "auc": 0.909683,
+    "tpr1": 0.259,
+    "auc_lo": 0.89741995,
+    "auc_hi": 0.9217653499999999,
+    "tpr1_lo": 0.172975,
+    "tpr1_hi": 0.37804999999999994
+   }
+  },
+  "secmi": {
+   "none": {
+    "settings": {
+     "step": 30000,
+     "n_boot": 1000,
+     "n_per_group": 1000,
+     "label": "none",
+     "t_sec": 100,
+     "k": 10
+    },
+    "seconds": 126.6,
+    "auc": 0.623279,
+    "tpr1": 0.022,
+    "auc_lo": 0.5998300249999999,
+    "auc_hi": 0.646604625,
+    "tpr1_lo": 0.005,
+    "tpr1_hi": 0.036
+   }
+  }
+ },
+ "run": "runs/n4096",
+ "step": 30000,
+ "n": 4096,
+ "n_per_group": 1000,
+ "cond": false,
+ "tiny": false
+}

@@ -1,0 +1,12 @@
+UNet2DModel parameter count for the pilot models (source for "26.6 million parameters", Paper_v11 sec:pilot).
+
+Method: sum of numel() over every tensor in the saved EMA state dict at step 30000,
+loaded with torch.load(..., weights_only=True). Run on 2026-11-22.
+
+experiments/runs/n256/ema_0030000.pt   tensors 380  params 26621057
+experiments/runs/n1024/ema_0030000.pt  tensors 380  params 26621057
+experiments/runs/n4096/ema_0030000.pt  tensors 380  params 26621057
+
+26,621,057 parameters = 26.6 million. Architecture: experiments/common.py build_unet(arch="base"),
+block_out_channels (64, 128, 256, 256), layers_per_block 2, unconditional (num_class_embeds unset).
+The class-conditional E3 models add a class embedding and were not counted here.

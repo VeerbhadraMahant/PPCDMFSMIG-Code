@@ -123,16 +123,25 @@ E4b (training seeds 1 and 2) and E5 (DP-SGD: `dp_gate.py`, `train_dp.py`, queued
 
 - `results/table.csv`, `results/table.tex`, `results/figA.pdf`: pilot table and Figure A (final checkpoint, N = 256,
   1024, 4096).
+- `results/figB.pdf`: Figure B, generated samples next to their nearest training images at N = 256 (also shown in
+  the supplement of the paper). The images are PneumoniaMNIST training images, public under CC BY 4.0.
+- `results/config_n*.json`, `results/metrics_n*.json`, `results/param_count.txt`, `results/REPORT.txt`: the
+  per-N configuration and final metrics that the pilot table is built from, and the run report.
 - `results/runs/n256`, `n1024`, `n4096`: `metrics.json` (all checkpoints), `config.json`, `log.csv`, `members.npy`
-  (indices of the member subset), and `attacks.json` for N = 4096.
+  (indices of the member subset), `samples_last.npy` (the 1,000 final-checkpoint samples that copy detection used),
+  `figB.json` and `figB.npz` (inputs of Figure B), and `attacks.json` for N = 4096.
 - `results_e3/c1024`, `results_e3/c4096`: `cfg_metrics.json` (guidance sweep), `attacks.json`, `config.json`,
-  `figcfg.json`, `log.csv`, `members.npy`; `results_e3/REPORT.txt` and `college_status.log` are run summaries.
+  `figcfg.json`, `log.csv`, `members.npy`; `results_e3/REPORT.txt` and `college_status.log` are run summaries;
+  `results_e3/E3_PAPER_NOTES.md` lists the E3 numbers copied from these files; `results_e3/figC.pdf` is Figure C.
 - `results/logs`, `results_e3/logs`: console logs, with local machine paths replaced by `python` or `results`.
 - The pilot models use a 26,621,057-parameter UNet (sum of tensor sizes in the saved EMA state dict; the
   class-conditional E3 models add a class embedding and were not counted).
 
-Figure B (generated samples next to nearest training images) is not included because it shows training images; it is
-rebuilt by `make_figures.py` from the checkpoints.
+Model checkpoints (`ema_*.pt`, about 107 MB each, 24 files for the three pilot runs) are not in this repository
+because GitHub rejects files over 100 MB. [TODO: link to the archive that holds the final checkpoints, if the author
+deposits one.] Without them, `make_figures.py` and `evaluate.py` cannot be re-run on the trained models, but every
+number in the paper tables can be read from the result files above, and the models can be retrained with the commands
+in the Reproduce section.
 
 ## Limitations
 

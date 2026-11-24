@@ -1,0 +1,63 @@
+==== REPORT FOR CLAUDE (copy everything from here to the end line) ====
+status log tail:
+2026-10-28 16:06:39 DONE e3_attacks_c1024 seconds=535
+2026-10-28 16:06:39 START e3_train_c4096 attempt=1
+2026-10-29 03:57:08 DONE e3_train_c4096 seconds=42629
+2026-10-29 03:57:08 START e3_cfg_c4096 attempt=1
+2026-10-29 07:03:13 DONE e3_cfg_c4096 seconds=11164
+2026-10-29 07:03:13 START e3_attacks_c4096 attempt=1
+2026-10-29 07:12:16 DONE e3_attacks_c4096 seconds=543
+2026-10-29 07:12:16 FINISHED done=6 failed=0 blocked=0 skipped=0
+[c1024/cfg_metrics.json] w/w_0: copy_rate=0.857 [0.833, 0.877]  copy_rate_095=0.538 [0.507, 0.567]  median_nn=0.9547 [0.9508, 0.959]  fid=30.48
+[c1024/cfg_metrics.json] w/w_0/per_class/0: copy_rate=0.874 [0.842, 0.902]
+[c1024/cfg_metrics.json] w/w_0/per_class/1: copy_rate=0.84 [0.808, 0.872]
+[c1024/cfg_metrics.json] w/w_1: copy_rate=0.92 [0.903, 0.937]  copy_rate_095=0.615 [0.585, 0.647]  median_nn=0.9662 [0.9618, 0.9702]  fid=28.47
+[c1024/cfg_metrics.json] w/w_1/per_class/0: copy_rate=0.936 [0.914, 0.956]
+[c1024/cfg_metrics.json] w/w_1/per_class/1: copy_rate=0.904 [0.876, 0.928]
+[c1024/cfg_metrics.json] w/w_2: copy_rate=0.938 [0.921, 0.952]  copy_rate_095=0.639 [0.609, 0.667]  median_nn=0.9728 [0.968, 0.976]  fid=34.15
+[c1024/cfg_metrics.json] w/w_2/per_class/0: copy_rate=0.966 [0.95, 0.982]
+[c1024/cfg_metrics.json] w/w_2/per_class/1: copy_rate=0.91 [0.884, 0.934]
+[c1024/cfg_metrics.json] w/w_3: copy_rate=0.936 [0.919, 0.95]  copy_rate_095=0.669 [0.638, 0.697]  median_nn=0.9738 [0.9704, 0.9778]  fid=35.75
+[c1024/cfg_metrics.json] w/w_3/per_class/0: copy_rate=0.96 [0.944, 0.976]
+[c1024/cfg_metrics.json] w/w_3/per_class/1: copy_rate=0.912 [0.888, 0.936]
+[c1024/cfg_metrics.json] w/w_5: copy_rate=0.909 [0.891, 0.927]  copy_rate_095=0.642 [0.611, 0.67]  median_nn=0.9683 [0.9651, 0.9712]  fid=30.22
+[c1024/cfg_metrics.json] w/w_5/per_class/0: copy_rate=0.912 [0.886, 0.936]
+[c1024/cfg_metrics.json] w/w_5/per_class/1: copy_rate=0.906 [0.882, 0.93]
+[c1024/cfg_metrics.json] w/w_7.5: copy_rate=0.609 [0.577, 0.64]  copy_rate_095=0.351 [0.324, 0.379]  median_nn=0.9144 [0.9086, 0.9222]  fid=61.96
+[c1024/cfg_metrics.json] w/w_7.5/per_class/0: copy_rate=0.322 [0.278, 0.366]
+[c1024/cfg_metrics.json] w/w_7.5/per_class/1: copy_rate=0.896 [0.868, 0.922]
+[c1024/cfg_metrics.json] mia/true_label: auc=1 [1, 1]  tpr1=1 [1, 1]
+[c1024/cfg_metrics.json] mia/null_label: auc=1 [1, 1]  tpr1=1 [1, 1]
+[c1024/attacks.json] attacks/loss/true: auc=1 [1, 1]  tpr1=1 [1, 1]
+[c1024/attacks.json] attacks/loss/null: auc=1 [1, 1]  tpr1=1 [1, 1]
+[c1024/attacks.json] attacks/pia/true: auc=1 [1, 1]  tpr1=1 [1, 1]
+[c1024/attacks.json] attacks/pia/null: auc=1 [1, 1]  tpr1=1 [1, 1]
+[c1024/attacks.json] attacks/secmi/true: auc=0.9973 [0.996, 0.9984]  tpr1=0.931 [0.885, 0.957]
+[c1024/attacks.json] attacks/secmi/null: auc=0.9998 [0.9996, 0.9999]  tpr1=0.992 [0.982, 0.999]
+[c4096/cfg_metrics.json] w/w_0: copy_rate=0.035 [0.024, 0.047]  copy_rate_095=0 [0, 0]  median_nn=0.8607 [0.8581, 0.8628]  fid=24.99
+[c4096/cfg_metrics.json] w/w_0/per_class/0: copy_rate=0.046 [0.028, 0.066]
+[c4096/cfg_metrics.json] w/w_0/per_class/1: copy_rate=0.024 [0.012, 0.038]
+[c4096/cfg_metrics.json] w/w_1: copy_rate=0.061 [0.047, 0.076]  copy_rate_095=0.001 [0, 0.003]  median_nn=0.8672 [0.8647, 0.8691]  fid=29.29
+[c4096/cfg_metrics.json] w/w_1/per_class/0: copy_rate=0.082 [0.06, 0.106]
+[c4096/cfg_metrics.json] w/w_1/per_class/1: copy_rate=0.04 [0.024, 0.056]
+[c4096/cfg_metrics.json] w/w_2: copy_rate=0.077 [0.06, 0.094]  copy_rate_095=0.003 [0, 0.007]  median_nn=0.8726 [0.8702, 0.8748]  fid=37.09
+[c4096/cfg_metrics.json] w/w_2/per_class/0: copy_rate=0.114 [0.088, 0.142]
+[c4096/cfg_metrics.json] w/w_2/per_class/1: copy_rate=0.04 [0.024, 0.058]
+[c4096/cfg_metrics.json] w/w_3: copy_rate=0.082 [0.066, 0.098]  copy_rate_095=0.002 [0, 0.005]  median_nn=0.875 [0.8728, 0.8768]  fid=39.94
+[c4096/cfg_metrics.json] w/w_3/per_class/0: copy_rate=0.122 [0.096, 0.148]
+[c4096/cfg_metrics.json] w/w_3/per_class/1: copy_rate=0.042 [0.026, 0.06]
+[c4096/cfg_metrics.json] w/w_5: copy_rate=0.027 [0.018, 0.038]  copy_rate_095=0 [0, 0]  median_nn=0.8525 [0.8493, 0.8548]  fid=32.72
+[c4096/cfg_metrics.json] w/w_5/per_class/0: copy_rate=0.004 [0, 0.01]
+[c4096/cfg_metrics.json] w/w_5/per_class/1: copy_rate=0.05 [0.032, 0.068]
+[c4096/cfg_metrics.json] w/w_7.5: copy_rate=0.011 [0.005, 0.018]  copy_rate_095=0 [0, 0]  median_nn=0.8008 [0.7918, 0.807]  fid=40.49
+[c4096/cfg_metrics.json] w/w_7.5/per_class/0: copy_rate=0 [0, 0]
+[c4096/cfg_metrics.json] w/w_7.5/per_class/1: copy_rate=0.022 [0.01, 0.036]
+[c4096/cfg_metrics.json] mia/true_label: auc=0.8461 [0.8296, 0.8626]  tpr1=0.165 [0.102, 0.223]
+[c4096/cfg_metrics.json] mia/null_label: auc=0.8344 [0.8167, 0.8513]  tpr1=0.153 [0.095, 0.213]
+[c4096/attacks.json] attacks/loss/true: auc=0.8461 [0.8296, 0.8626]  tpr1=0.165 [0.102, 0.223]
+[c4096/attacks.json] attacks/loss/null: auc=0.8344 [0.8167, 0.8513]  tpr1=0.153 [0.095, 0.213]
+[c4096/attacks.json] attacks/pia/true: auc=0.8888 [0.8755, 0.9025]  tpr1=0.204 [0.134, 0.321]
+[c4096/attacks.json] attacks/pia/null: auc=0.8743 [0.8596, 0.8886]  tpr1=0.211 [0.112, 0.304]
+[c4096/attacks.json] attacks/secmi/true: auc=0.7156 [0.6943, 0.7376]  tpr1=0.029 [0.017, 0.052]
+[c4096/attacks.json] attacks/secmi/null: auc=0.7082 [0.6859, 0.73]  tpr1=0.033 [0.019, 0.049]
+==== END OF REPORT ====
